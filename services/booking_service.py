@@ -1,7 +1,7 @@
 from database.db import get_connection
 from models.booking import Booking
 
-def get_all_the_bookings():
+def get_all_bookings():
     conn = get_connection()
     cursor = conn.cursor()
     cursor.execute("SELECT * FROM bookings")
