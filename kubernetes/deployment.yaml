@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: flight-app
 spec:
-  replicas: 2
+  replicas: 2 #Run 2 copies of my app at the same time. If one crashes the other is still running — no downtime!
   selector:
     matchLabels:
       app: flight-app

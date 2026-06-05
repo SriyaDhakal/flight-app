@@ -59,6 +59,7 @@ minikube service flight-app-service --url
 - Managing containers with Kubernetes (self healing, scaling, replicas)
 - Deploying apps to cloud with Railway
 
+
 ## 🎯 Key DevOps Concepts Practiced
 - **Docker** — packaging app into a container so it runs the same anywhere
 - **CI/CD** — every push to GitHub automatically builds and tests the app
